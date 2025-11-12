@@ -3,3 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.blue-buttons {
+    color: white;
+    background-color: dodgerblue;
+    margin: -5px;
+    padding: 8px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.header {
+
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.column-1 {
+    display: flex;
+    gap: 30px;
+}
+
+.column-2 {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DEBUG*/
+
+header {
+    background-color: orangered;
+}
