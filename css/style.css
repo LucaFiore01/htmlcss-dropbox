@@ -4,11 +4,31 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.jumbotron {
+    background-color: lightblue;
+    padding: 2%;
+}
+
 .blue-buttons {
     color: white;
     background-color: dodgerblue;
     margin: -5px;
     padding: 8px;
+}
+
+.blue-button {
+    color: white;
+    background-color: dodgerblue;
+    padding: 8px;
+    width: 190px;
+    text-decoration: none;
+
 }
 
 .container-header {
@@ -31,11 +51,65 @@ a:hover {
 .column-1 {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .column-2 {
     display: flex;
     gap: 30px;
+    align-items: center;
+}
+
+
+/* BODY */
+
+/*JUMBO*/
+
+.container-jumbo {
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+    display: flex;
+}
+
+.w-30 {
+    height: 515px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+.w-70 {
+    height: 500px;
+    width: 70%;
+}
+
+.jumbo-img {
+    max-width: 100%;
+}
+
+.jumbo-title {
+    font-size: xxx-large;
+    padding-bottom: 35px;
+    text-align: start;
+}
+
+.fa-arrow-down {
+    font-size: xx-large;
+}
+
+.fa-solid:hover {
+    cursor: pointer;
+}
+
+/****************************/
+
+/*SECTION 1*/
+
+.section1 {
+    padding: 10%;
 }
 
 
@@ -74,6 +148,23 @@ a:hover {
 
 /*DEBUG*/
 
-header {
-    background-color: orangered;
+
+
+/*.w-70 {
+.container-jumbo {
+    background-color: purple;
+}
+
+    background-color: chartreuse;
+    border: 1px dashed black;
+}
+
+.w-30 {
+    background-color: red;
+    border: 1px dashed black;
+}*/
+
+
+.section-1-container {
+    background-color: blueviolet;
 }
