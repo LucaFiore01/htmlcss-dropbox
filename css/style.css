@@ -8,8 +8,65 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*UTILITY*/
 
+.mt-25{
+    margin-top: 25px;
+}
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-70 {
+    margin-left: 70px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.fz {
+    font-size: 15px;
+}
+
+.xxl {
+    font-size: xx-large;
+}
+
+.ml-90 {
+margin-left: 90px;
+}
+
+.ml-115 {
+    margin-left: 115px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+/*********/
 .jumbotron {
     background-color: lightblue;
     padding: 2%;
@@ -112,7 +169,53 @@ a:hover {
     padding: 10%;
 }
 
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.section-col-top {
+    width: 100%;
+    height: 150px;
+    
+}
+
+.section-col-middle {
+    width: calc(100% / 3);
+    margin-bottom: 35px;
+    border: 1px groove lightslategray;
+
+}
+
+.section-col-bottom {
+    width: 100%;
+    height: 165px;
+    border: 1px groove lightslategray;
+}
+
+.middle-box {
+    display: flex;
+}
+
+.top {
+    margin-left: 40%;
+}
+
+.column-list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+.list-item {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.fatturazioni {
+    display: flex;
+}
 
 
 
@@ -162,9 +265,22 @@ a:hover {
 .w-30 {
     background-color: red;
     border: 1px dashed black;
-}*/
-
-
-.section-1-container {
-    background-color: blueviolet;
-}
+    
+    
+    .section-1-container {
+        background-color: blueviolet;
+    }
+    
+    .section-col-middle {
+        background-color: chartreuse;
+    }
+    
+    .section-col-middle {
+        background-color: rgb(255, 0, 0);
+        border: 1px dashed black;
+    }
+    
+    .section-col-bottom {
+        background-color: chartreuse;
+    }
+    }*/
