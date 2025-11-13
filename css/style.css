@@ -308,6 +308,19 @@ a:hover {
     margin-bottom: 50px;
 }
 
+/*BOTTOM SECTION*/
+
+.bottom-section {
+    padding: 2%;
+    margin-top: 25%;
+    margin: 0 auto;
+}
+
+.bottom-section-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 
 
